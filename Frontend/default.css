@@ -229,14 +229,17 @@ h6 { font-size: 16px;}
 
 #blue-mode{
 	background-color: #192734;
+	color: black;
 }
 
 #green-mode{
 	background-color: #78866b;
+	color: black;
 }
 
 #purple-mode{
 	background-color: #7E4C74;
+	color: black;
 }
 
 #settings-note{
@@ -254,6 +257,9 @@ h6 { font-size: 16px;}
 	padding-bottom: 50px;
 }
 
+.para {
+	font-size: small;
+}
 
 #preview-shadow{
 	background-color: var(--previewShadow);
@@ -492,6 +498,9 @@ h6 { font-size: 16px;}
 	.main-container{
 		width: 95%;
 	}
+	.para {
+		font-size: small;
+	}
 }
 
 @media screen and (max-width: 800px){
@@ -506,6 +515,10 @@ h6 { font-size: 16px;}
 
 	.right-column{
 		justify-content: center;
+	}
+
+	.para {
+		font-size: small;
 	}
 
 }
@@ -541,6 +554,10 @@ h6 { font-size: 16px;}
 
 	}
 
+	.para {
+		font-size: small;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -549,11 +566,18 @@ h6 { font-size: 16px;}
     padding: 12px 18px;
     margin-right: 0px;
   }
+
+  .para {
+	font-size: small;
+	}
 }
 @media (max-width: 320px) {
   .main-button {
     font-size: 12px;
   }
+  .para {
+	font-size: small;
+}
 }
 
 
