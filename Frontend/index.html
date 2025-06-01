@@ -1,334 +1,527 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Onah Stephen</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-
-	<link rel="shortcut icon" href="images/stephen.JPG">
-
-	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<link rel="stylesheet" type="text/css" href="default.css">
-	
-	<link id="theme-style" rel="stylesheet" type="text/css" href="">
-
+    <meta charset="UTF-8">
+    <title>Onah Stephen | Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <meta name="description" content="Onah Stephen - Full Stack Developer specializing in JavaScript and Python ecosystems. Expert in Node.js, Django, Flask, FastAPI, and cloud technologies.">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/stephen.JPG">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <!-- Floating Social Bar -->
+    <div class="social-bar">
+        <a href="https://github.com/onielsteve2003" target="_blank" class="social-icon">
+            <i class="fab fa-github"></i>
+            <span class="tooltip">GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/stephen-onah-1b2832238" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+            <span class="tooltip">LinkedIn</span>
+        </a>
+        <a href="https://twitter.com/onah_stevenn" target="_blank" class="social-icon">
+            <i class="fab fa-twitter"></i>
+            <span class="tooltip">Twitter</span>
+        </a>
+        <a href="mailto:stephenobumonah@gmail.com" class="social-icon">
+            <i class="fas fa-envelope"></i>
+            <span class="tooltip">Email</span>
+        </a>
+    </div>
 
-	<section class="s1">
-		<div class="main-container">
-			<div class="greeting-wrapper">
-				<h1>Hi, I'm Onah Stephen, a Backend Developer</h1>
-			</div>
+    <!-- Navigation -->
+    <nav class="nav-wrapper" data-aos="fade-down">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home">OS.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <h1 class="glitch" data-text="Hi, I'm Onah Stephen">Hi, I'm Onah Stephen</h1>
+                <div class="typing-wrapper">
+                    <span class="static-text">I'm a&nbsp;</span>
+                    <ul class="dynamic-texts">
+                        <li><span>Full Stack Developer</span></li>
+                        <li><span>Backend Developer</span></li>
+                        <li><span>JavaScript Expert</span></li>
+                        <li><span>Python Developer</span></li>
+                    </ul>
+                </div>
+                <p class="hero-description">
+                    Crafting robust applications with modern technologies. 
+                    Specializing in both JavaScript and Python ecosystems.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="primary-btn">
+                        <span class="btn-content">
+                            <i class="fas fa-code"></i>
+                            <span>View Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </a>
+                    <a href="https://drive.google.com/uc?export=download&id=1HK3VHJJyg1T5GFYN4NjKqn4s84SypyKP" 
+                        class="secondary-btn" 
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <span class="btn-content">
+                            <i class="fas fa-file-download"></i>
+                            <span>Download CV</span>
+                            <div class="btn-hover-effect"></div>
+                        </span>
+                    </a>
+                </div>
+                <div class="tech-stack">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/nodejs-logo.png" alt="Node.js" title="Node.js">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/python-logo.png" alt="Python" title="Python">
+                    <img src="https://th.bing.com/th/id/OIP.NKnVoYHqVyNyjG-Ruz26HAHaHa?rs=1&pid=ImgDetMain" alt="Django" title="Django">
+                    <img src="images/express.png" alt="Express" title="Express">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/mongodb-logo.png" alt="MongoDB" title="MongoDB">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png" alt="PostgreSQL" title="PostgreSQL">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/react-logo.png" alt="React Js" title="React Js">
+                    <img src="https://brandslogos.com/wp-content/uploads/images/large/javascript-logo.png" alt="Javascript" title="Javascript">
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="images/obum.PNG" alt="Onah Stephen" class="profile-image">
+                <div class="experience-badge">
+                    <span class="years">6</span>
+                    <span class="text">Years of Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<div class="intro-wrapper">
-				<div class="nav-wrapper">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up">
+                    <p class="lead-text">
+                        I'm a Full Stack Developer with expertise in both JavaScript and Python ecosystems. 
+                        With over 6 years of experience, I specialize in building scalable web applications 
+                        and robust APIs.
+                    </p>
+                    <div class="achievement-cards">
+                        <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fas fa-code"></i>
+                            <h3>15+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-coffee"></i>
+                            <h3>100+</h3>
+                            <p>Cups of Coffee</p>
+                        </div>
+                        <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fas fa-clock"></i>
+                            <h3>1000+</h3>
+                            <p>Hours Coded</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<a href="index.html">
-						<div class="dots-wrapper">
-							<div id="dot-1" class="browser-dot"></div>
-							<div id="dot-2" class="browser-dot"></div>
-							<div id="dot-3" class="browser-dot"></div>
-						</div>
-					</a>
-					
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Work Experience</h2>
+            <div class="timeline" data-aos="fade-up">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Fullstack Developer, Remote - Spain</h3>
+                        <h4>Gurugeeks</h4>
+                        <p class="timeline-date">November 2024 - January 2025</p>
+                        <ul class="experience-list">
+                            <li>Designed and implemented RESTful and GraphQL APIs using NestJS, Node.js, and Python, improving system efficiency and performance.</li>
+                            <li>Leveraged AWS Lambda, Amazon S3, and EC2 to build serverless and containerized solutions, reducing operational costs and improving scalability.</li>
+                            <li>Designed and maintained SQL and NoSQL databases (PostgreSQL, MySQL, MongoDB) to enhance data storage efficiency and retrieval speeds.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Fullstack Developer, Remote - Nigeria</h3>
+                        <h4>Hupdev</h4>
+                        <p class="timeline-date">June 2022 - November 2024</p>
+                        <ul class="experience-list">
+                            <li>Developed and optimized backend systems using Python, Django, and Node.js, reducing API response time by 30%</li>
+                            <li>Designed and integrated RESTful APIs and GraphQL endpoints, enhancing frontend-backend communication.</li>
+                            <li>Optimized database performance for SQL, PostgreSQL, and MongoDB, improving query efficiency by 50%.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer, Remote - Nigeria</h3>
+                        <h4>Brimble</h4>
+                        <p class="timeline-date">April 2023 - Feburary 2024</p>
+                        <ul class="experience-list">
+                            <li>Developed and Maintained Scalable Backend Systems: Engineered robust backend solutions using Node.js and TypeScript, ensuring optimal performance, maintainability, and scalability.</li>
+                            <li>Designed and Optimized APIs: Built and maintained RESTful and GraphQL APIs, seamlessly integrating with frontend applications and third-party services to enhance functionality.</li>
+                            <li>Enhanced Database Performance and Security: Managed SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, implementing indexing and query optimization to improve data retrieval speed by 40%.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer, Remote - United States</h3>
+                        <h4>RE Land</h4>
+                        <p class="timeline-date">Feburary 2022 - August 2023</p>
+                        <ul class="experience-list">
+                            <li>Led backend development using TypeScript, improving code maintainability and reducing bugs by 40%.</li>
+                            <li>Built CI/CD pipelines for automated deployment, reducing deployment time by 60%.</li>
+                            <li>Developed a microservices-based architecture, improving system scalability and modularity.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add more timeline items for your experience -->
+            </div>
+        </div>
+    </section>
 
-					<ul id="navigation">
-						<li><a href="index.html#contact">Contact</a></li>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category" data-aos="fade-up">
+                    <h3>Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level" style="width: 95%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React / Next.js</span>
+                            <div class="skill-level" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
 
-					</ul>
-				</div>
+                <div class="skills-category" data-aos="fade-up">
+                    <h3>Backend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js / NestJS</span>
+                            <div class="skill-level" style="width: 95%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Django / Flask</span>
+                            <div class="skill-level" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                            <div class="skill-level" style="width: 95%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>FastAPI</span>
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
 
-				<div class="left-column">
-					<img id="profile_pic" src="images/stephen.JPG">
-					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+                <div class="skills-category" data-aos="fade-up">
+                    <h3>Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                            <div class="skill-level" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
 
-					<div id="theme-options-wrapper">
-						<div data-mode="light" id="light-mode" class="theme-dot"></div>
-						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-						<div data-mode="green" id="green-mode" class="theme-dot"></div>
-						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-					</div>
+                <div class="skills-category" data-aos="fade-up">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                            <div class="skill-level" style="width: 95%"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-azure"></i>
+                            <span>Azure</span>
+                            <div class="skill-level" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
-				</div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Speedly -->
+                <div class="project-card" data-category="fullstack" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="images/speedly.jpeg" alt="Speedly">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Speedly</h3>
+                                <p>Real estate management application with comprehensive features for property listing, management, and transactions.</p>
+                                <div class="project-tech">
+                                    <span>fastAPI</span>
+                                    <span>PostgreSQL</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://play.google.com/store/apps/details?id=com.getspeedly.speedly" target="_blank" class="project-btn">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                    <a href="https://github.com/onielsteve2003" target="_blank" class="project-btn">
+                                        <i class="fab fa-github"></i> Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-				<div class="right-column">
+                <!-- LinkMeUp -->
+                <div class="project-card" data-category="backend" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="images/linkmeup_primary.png" alt="LinkMeUp">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>LinkMeUp</h3>
+                                <p>Identity and access management system with advanced security features and user authentication.</p>
+                                <div class="project-tech">
+                                    <span>Node.js</span>
+                                    <span>Express</span>
+                                    <span>PostgreSQL</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://linkmeup.us/" target="_blank" class="project-btn">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                    <a href="https://github.com/onielsteve2003" target="_blank" class="project-btn">
+                                        <i class="fab fa-github"></i> Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="backend" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="images/linkmeup_security.png" alt="LinkMeUp Security">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>LinkMeUp Security</h3>
+                                <p>Identity and access management system with advanced security features and user authentication.</p>
+                                <div class="project-tech">
+                                    <span>Node Js</span>
+                                    <span>Express</span>
+                                    <span>PostgreSQL</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://linkmeup.us/security" target="_blank" class="project-btn">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                    <a href="https://github.com/onielsteve2003" target="_blank" class="project-btn">
+                                        <i class="fab fa-github"></i> Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="fullstack" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="images/abamade.PNG" alt="Abamade">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Abamade</h3>
+                                <p>Abamade is a platform for buying and selling products.</p>
+                                <div class="project-tech">
+                                    <span>React / NextJs</span>
+                                    <span>Node Js</span>
+                                    <span>Express</span>
+                                    <span>MongoDB</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://www.abamade.com.ng/" target="_blank" class="project-btn">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                    <a href="https://github.com/onielsteve2003" target="_blank" class="project-btn">
+                                        <i class="fab fa-github"></i> Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-					<div id="preview-shadow">
-						<div id="preview">
-							<div id="corner-tl" class="corner"></div>
-							<div id="corner-tr" class="corner"></div>
-							<h3>What I Do</h3>
-							<p class="para">- I thrive in architecting solutions that meet complex 
-								business needs.If you're seeking a dedicated engineer passionate about delivering quality APIs and keen on continuous 
-								growth, let's connect and shape the future together.
-							</p>
-							<div id="corner-br" class="corner"></div>
-							<div id="corner-bl" class="corner"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                <!-- Add more project cards -->
+            </div>
+            <div class="projects-cta" data-aos="fade-up">
+                <a href="https://github.com/onielsteve2003" target="_blank" class="primary-btn">
+                    View More on GitHub <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
 
-	<section class="s2">
-		<div class="main-container">
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>stephenobumonah@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Lagos, Nigeria</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>09134352062</p>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Name</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" required>
+                        <label for="subject">Subject</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Message</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-			<div class="about-wrapper">
-				<div class="about-me">
-					<h4>More about me</h4>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Onah Stephen</h3>
+                    <p>Full Stack Developer specializing in JavaScript and Python ecosystems.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/onielsteve2003" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/stephen-onah-1b2832238" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/onah_stevenn" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Onah Stephen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-					<p>⚡ <span style="font-weight: bold;">Expert in Node.js, Express and Django :</span> Demonstrated experience in developing scalable and efficient backend systems using Node.js, Express and Django. Proven ability to design and implement RESTful APIs, manage middleware, and handle server-side logic for high-performance web applications.</p>
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
-					<p>⚡ <span style="font-weight: bold;">Database Management and Optimization:</span> Proficient in working with various databases, particularly MongoDB. Skilled in designing database schemas, performing complex queries, and optimizing database performance to ensure fast and reliable data access for applications.</p>
-
-					<p>⚡ <span style="font-weight: bold;">API Integration and Security:</span> Extensive knowledge in integrating third-party APIs and ensuring secure data transactions. Expertise in implementing authentication and authorization mechanisms, including JWT and OAuth, to safeguard application data and enhance user trust.</p>
-
-
-					<hr>
-
-					<h4>TOP EXPERTISE</h4>
-
-					<p>Backend developer with primary focus on MongoDB and Express, Node.js and Django, but I'm also proficient in other stacks and willing to adapt to different technologies as needed 
-						<a class="main-button" target="_blank" href="https://drive.google.com/file/d/1tfkrf6tIqkdOakbIR-6d8TIxv5p3jnNJ/view">See my Resume</a>
-					</p>
-
-					<div id="skills">
-						<p>MY SKILLS:</p>
-						<ul>
-							<li>Node / Express js</li>
-							<li>Jest</li>
-							<li>Javascript</li>
-							<li>Typescript</li>
-							<li>MongoDB</li>
-						</ul>
-
-						<ul>
-							<li>SQL / PostgreSQL</li>
-							<li>Heroku</li>
-							<li>AWS</li>
-							<li>Git / Github</li>
-							<li>Python / Django</li>
-						</ul>
-
-					</div>
-
-				</div>
-
-				
-				<div class="social-links">
-					<h3>Find me on: </h3>
-					<div class="flex">
-						<div><a href="https://twitter.com/onah_stevenn" class="fa fa-twitter"></a></div>
-						<div><a href="https://www.instagram.com/onah_steven/" class="fa fa-instagram"></a></div>
-						<div><a href="https://www.linkedin.com/in/stephen-onah-1b2832238/" class="fa fa-linkedin"></a></div>
-						<div><a href="https://web.facebook.com/stephen.onah.33449/" class="fa fa-facebook"></a></div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-	<section class="s1">
-		<div class="main-container">
-			<h3 style="text-align: center;">Some of my past projects</h3>
-
-			<div class="post-wrapper">
-
-				<div>
-					<div class="post">
-						<a href="https://play.google.com/store/apps/details?id=com.getspeedly.speedly&hl=en_US">
-							<img class="thumbnail" src="images/speedly.jpeg">
-						</a>
-						<div class="post-preview">
-							<h6 class="post-title">Speedly: Empowering Businesses - Apps on Google Play</h6>
-							<p class="post-intro">A new real estate feature: Manage buying, selling, and commissions with ease. I worked on a comprehensive application (backend) available on the Play Store, which serves a wide range of functionalities and caters to a diverse user base. The application encompasses multiple features that address various user needs, making it a versatile tool.</p>
-							<a href="https://play.google.com/store/apps/details?id=com.getspeedly.speedly&hl=en_US">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<a href="https://linkmeup.us/">
-							<img class="thumbnail" src="images/linkmeup_primary.png">
-						</a>
-						<div class="post-preview">
-							<h6 class="post-title">linkmeup Individual</h6>
-							<p class="post-intro">Identity and access management application. Worked on the backend also available on web and on play store.</p>
-							<p>Tools used: <br /> Node js, <br /> Express js, <br /> MongoDB, <br /> Javascript & Typescript <br /> postgreSQL</p>
-							<a href="https://linkmeup.us/">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<a href="https://linkmeup.us/security">
-							<img class="thumbnail" src="images/linkmeup_security.png">
-						</a>
-						<div class="post-preview">
-							<h6 class="post-title">linkmeup Security</h6>
-							<p class="post-intro">Linkmeup security view. Worked on the backend also available on web and on play store.</p>
-							<p>Tools used: <br /> Node js, <br /> Express js, <br /> MongoDB, <br /> Javascript & Typescript <br /> postgreSQL</p>
-							<a href="https://linkmeup.us/security">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<a href="https://www.briogeohair.com/">
-							<img class="thumbnail" src="images/broigero.jpeg">
-						</a>
-						<div class="post-preview">
-							<h6 class="post-title">Briogeo Hair Care - Clean, Natural and Effective Hair Care</h6>
-							<p class="post-intro">Briogeo Hair Care is a brand synonymous with clean, natural, and effective hair care solutions. With a commitment to crafting products free from harsh chemicals, sulfates, silicones, parabens, and artificial dyes.</p>
-							<a href="https://www.briogeohair.com/">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<a href="https://clone-c9183.firebaseapp.com/">
-							<img class="thumbnail" src="images/amazon 2.JPG">
-						</a>
-						<div class="post-preview">
-							<h6 class="post-title">Amazon Clone</h6>
-							<p class="post-intro">Designed & built from scratch</p>
-							<p>Tools used: <br /> html & CSS <br /> Node js, <br /> Express js, <br /> MongoDB, <br /> Javascript</p>
-							<a href="https://clone-c9183.firebaseapp.com/">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<a href="https://dentalcareapp.netlify.app/">
-							<img class="thumbnail" src="images/dentalcare.JPG">
-						</a>
-						<div class="post-preview">
-							<h6 class="post-title">Dental Care App</h6>
-							<p class="post-intro">Designed & built for the maintenance of the tooth</p>
-							<p>Tools used: <br /> html & CSS <br /> Node js, <br /> Express js, <br /> MongoDB, <br /> Javascript</p>
-							<a href="https://dentalcareapp.netlify.app/">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<a href="https://shareimagesapp.netlify.app/login">
-							<img class="thumbnail" src="images/shareme.JPG">
-						</a>
-						<div class="post-preview">
-							<h6 class="post-title">Social Media App - Share me  </h6>
-							<p class="post-intro">A social media app where you can share different images of various categories</p>
-							<a href="https://shareimagesapp.netlify.app/login">Read More</a>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="post">
-						<a href="https://fooduu.netlify.app/">
-							<img class="thumbnail" src="images/foodu.JPG">
-						</a>
-						<div class="post-preview">
-							<h6 class="post-title">Foodu App  </h6>
-							<p class="post-intro">A social media app where you can share different images of various categories</p>
-							<a href="https://fooduu.netlify.app/">Read More</a>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="project-button">
-				<a class="main-button" href="https://github.com/onielsteve2003" target="_blank">More Projects</a>
-			</div>
-
-		</div>
-	</section>
-
-	<section class="s2">
-		<div class="main-container2">
-			<h3 style="text-align: center;">Get In Touch</h3>
-
-			<div class="w-form-fail" id="error-body">
-			</div>
-
-			<form id="contact-form">
-				<a name="contact"></a>
-
-				<label>Name</label>
-				<input id="name" class="input-field" type="text" name="name">
-
-				<label>Subject</label>
-				<input id="subject" class="input-field" type="text" name="subject">
-
-				<label>Email</label>
-				<input id="email" class="input-field" type="text" name="email">
-
-				<label>Message</label>
-				<textarea id="message" class="input-field" name="message"></textarea>
-
-				<button id="submit-btn">Submit</button>
-			</form>
-
-		</div>
-	</section> 
-
-	<script type="text/javascript" src="script.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
 </body>
-
-<script>
-	const form = document.getElementById('contact-form')
-	const name = document.getElementById('name')
-	const subject = document.getElementById('subject')
-	const email = document.getElementById('email')
-	const message = document.getElementById('message')
-
-	form.addEventListener('submit', (e) => {
-		e.preventDefault();
-		const userData = {
-			name: name.value,
-			subject: subject.value,
-			email: email.value,
-			message: message.value
-		}
-
-		axios.post('https://onielsteve.herokuapp.com/api/users', userData)
-		.then(res => {
-            document.getElementById('error-body').innerHTML = `<div style="background-color: green; color: #fff">${res.data.msg}</div>`
-			setTimeout(() => {
-				document.getElementById('error-body').innerHTML = ''
-			}, 3000)
-			// Clear form
-			name.value = ''
-			subject.value = ''
-			email.value = ''
-			message.value = ''
-		})
-		.catch(err => {
-			document.getElementById('error-body').style.display = 'block'
-			document.getElementById('error-body').innerHTML = `<div style="background-color: pink;"> ${err.response.data.error} </div>`
-			setTimeout(() => {
-				document.getElementById('error-body').innerHTML = ''
-			}, 3000);
-		})
-	})
-</script>
-
 </html>
